@@ -1,0 +1,27 @@
+h2 {
+		padding:10px 0 0 0;
+		margin:0 0 5px 0;
+		color:#5c9b48;
+		font-size:18px;		
+}
+.rev-info-block strong {
+		color:#e78f08;
+		
+}
+.rev-comment {
+		font-style:italic;
+		
+		
+}
+.rev-user {
+		
+}
+.rss-left {
+		float:left;
+		width: 720px;
+}
+.rss-right {
+		float: right;
+		width: 160px;
+		margin-top: 20px;
+}

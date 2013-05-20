@@ -1,0 +1,14 @@
+.table_shop {
+	border-spacing: 0;
+	font-size: 12px;
+}
+.table_shop td {
+	padding: 0;
+}
+.formButton {
+	text-align:right;
+	margin:5px 0 0 0;
+}
+.table_shop img {
+	border:0;
+}

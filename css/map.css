@@ -1,0 +1,164 @@
+.elements {
+		width:32px;
+		height:32px;
+		position:absolute;
+		display:block;
+}
+.myUser {
+		position:absolute;
+		width:32px;
+		height:32px;
+		background-repeat:no-repeat;
+		z-index:6;
+		background-position: -32px 0;
+}
+.bots {
+		position:absolute;
+		width:32px;
+		height:32px;
+		background-repeat:no-repeat;
+		z-index:5;
+		display:block;
+}
+.otherUsers {
+		position:absolute;
+		width:32px;
+		height:32px;
+		background-repeat:no-repeat;
+		z-index:5;
+		background-position: -32px 0;
+}
+.avantPlan {
+		position:relative;
+		z-index:3;
+}
+.action-contener {
+		z-index:9;
+		position:absolute;
+		max-height:350px;
+		width:792px;
+		top:50px;
+		left:100px;
+}
+.blockAction {
+		background-image:url('../images/template/bg-action.png');
+		-moz-border-bottom-colors: none;
+		-moz-border-image: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		border-color: #666 #666;
+		border-right: 1px solid #666;
+		border-style: none solid solid;
+		border-width: 0 1px 1px;
+		box-shadow: 0 1px 1px #999;
+		overflow: auto;
+		display: table;
+		position: relative;
+		margin: 0 auto;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		max-width: 660px;
+}
+
+.closeAction {
+		float: right;
+		padding: 5px 5px 0 0;
+		cursor: pointer;
+}
+#commandActionContent {
+		padding:0 20px 0 20px;
+		margin:0 10px 20px 10px;
+		max-width: 600px;
+		max-height: 350px;
+		overflow: auto;
+		
+}
+
+#commandActionContent h1 {
+		margin: 0;
+}
+
+.bontonActionRight {
+				text-align: right;
+}
+.action-contener h2 {
+		padding: 0;
+		margin: 0;
+}
+.avatarAction {
+		float:left;
+		width:96px;
+		height:96px;
+		display:block;
+		border:1px solid #FFF;
+		background-color:#999;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-right: 20px;
+}
+.contenerActionStat {
+		float:left;
+		max-width:420px;
+}
+.bontonAction {
+		margin-top:14px
+}
+.bontonAction input {
+		margin-right:10px;
+}
+
+.bontonAction input {
+		margin-right:10px;
+}
+.contenerActionStat h1 {
+		margin:0 0 5px 0;
+		padding:0;
+		color:#8D1E19;
+}
+.tableMap {
+		position:absolute;
+}
+.map_coordonne {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		z-index: 8;
+		color: #fff;
+		padding: 4px 5px 4px 10px;
+		font-weight: bold;
+		text-shadow: 1px 1px 0 #555;
+}
+.alert_action {
+		background-color: #FCC;
+		border: 1px solid #900;
+		padding: 10px;
+		margin: 0 20px 10px 0;
+		font-weight: bold;
+		color: #900;
+		-moz-border-bottom-colors: none;
+		-moz-border-image: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		border-color: #CCC #CCC;
+		border-right: 1px solid #CCC;
+		border-style: none solid solid;
+		border-width: 0 1px 1px;
+		box-shadow: 0 1px 1px #DDDDDD;
+}
+.usernameUsers {
+		position: absolute;
+		bottom: 35px;
+		width: 92px;
+		left: -30px;
+		text-align: center;
+		overflow: hidden;
+		font-size: 9px;
+		color:#FFF;
+		text-shadow: 1px 1px 0 #555555;
+}
+
+#control_sound {
+		cursor: pointer;
+}

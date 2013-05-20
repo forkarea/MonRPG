@@ -1,0 +1,144 @@
+.contener-form{
+		padding: 0 5px;
+		position: absolute;
+		top: 4px;
+		right: 140px;
+}
+.description {
+		padding: 10px 20px 20px 20px;
+		border-top:1px solid #CCC;
+}
+.description h2 {
+		border: medium none;
+		font-size: 28px;
+		font-weight: bold;
+		margin: 0 0 5px;
+		padding: 0 0 10px 0;    
+		font-weight: normal;
+		letter-spacing: -0.03em;
+}
+.mod_home h3 {
+		border: medium none;
+		font-weight: bold;
+		margin: 0 0 5px;
+		padding: 0 0 10px 0;    
+		font-size: 20px;
+		font-weight: normal;
+		letter-spacing: -0.03em;
+}
+.mod_home img{
+		padding: 0 10px 5px 0;
+}
+.lien-top {
+		font-size:10px;
+		font-style: italic;
+		float: right;
+		padding:0 10px 0 15px;
+		position: absolute;
+		top: 3px;
+		right: 0;
+}
+.contener-form .button {
+		font-size: 10px;
+		padding: 3px;
+}
+.contener-form .input-text {
+		width: 120px;
+		margin:0 10px 0 0;
+		font-size: 10px;
+		padding: 3px;
+}
+.mod_home {
+		float:left;
+		width:295px;
+		padding:15px 20px;
+		border-top:1px solid #CCC;
+}
+.row_top_user {
+		padding: 7px 0;
+		border-bottom: 1px solid #CCC;
+}
+.username_top_user {
+		float: left;
+		color: #990000;
+		font-weight: bold;
+		font-size: 14px;
+		margin-top: 3px;
+}
+.niveau_top_user {
+		float: right;
+		color:#81B656;
+		margin-top: 3px;
+
+}
+.avatar_top_user {
+		border:1px solid #444;
+		width:20px;
+		height:20px;
+		background-color:#F7F7F7;
+		float:left;
+		margin-right:10px;
+		background-position:-6px -2px;
+		border:1px solid #CDE5C6;
+}
+.img_top {
+		border:1px solid #444;
+		width:20px;
+		height:20px;
+		background-color:#F7F7F7;
+		float:left;
+		margin-right:10px;
+		background-position:center;
+		border:1px solid #CDE5C6;
+}
+.border_left_right {
+		border-left:1px solid #CCC;
+		border-right:1px solid #CCC;
+		width:295px;
+}
+#slider{
+		width:1008px;
+		height:309px;
+		position:relative;
+}
+#slider li{
+		margin: 0;
+		padding: 0;
+}
+#mask{
+		width:100%;
+		height:100%;
+		position:absolute;
+		overflow:hidden;
+}
+#image_container{
+		position:absolute;
+		width:400%;
+		height:100%;
+		-webkit-transition-property:all;
+		-webkit-transition-duration:1s;
+		-moz-transition-property:all;
+		-moz-transition-duration:1s;
+		transition-property:all;
+		transition-duration:1s;
+}
+.image1 #image_container{
+		left:0;
+}
+.image2 #image_container{
+		left:-100%;
+}
+.image3 #image_container{
+		left:-200%;
+}
+.image4 #image_container{
+		left:-300%;
+}
+#image_container li{
+		float:left;
+}
+*{        
+		padding:0;
+		margin:0;
+		list-style-type:none;
+}

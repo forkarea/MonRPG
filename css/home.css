@@ -1,0 +1,190 @@
+
+.bottom_map_user {
+		margin: 0 auto;
+		width:992px;		
+}
+.footer_inventaire {
+		background-position:center;
+		background-repeat:no-repeat;
+		margin: 7px;
+		-moz-border-bottom-colors: none;
+		-moz-border-image: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		border-color: #CCC #CCC;
+		border-width: 1px 1px 1px;
+		border-right: 1px solid #CCC;
+		border-top: 1px solid #D9D9D9;
+		border-style: solid solid solid;
+		box-shadow: 0 1px 1px #CCC;
+}
+.inventaire img, .stuff img {
+		padding:13px;
+}
+.bottom_map_user .inventaire img {
+		background-color:#EFF4EB;
+		padding:13px;
+}
+.inventaire img {
+		cursor:pointer;
+}
+.inventaire .nombre {
+		position:absolute;
+		bottom:4px;
+		right:6px;
+		z-index:10;
+		font-size:9px;
+		padding:0 2px;
+		color:#C00;
+}
+.content-item, .element-item {
+		width:50px;
+		height:50px;
+		position:relative;
+		display:block;
+		float:left;
+}
+.panel {
+		min-width: 500px;
+}
+.panel .content-item, .panel .element-item {
+		border: 1px solid #999;
+		margin: 5px;
+}
+.menu {
+		position: absolute;
+		top:5px;
+		left: 10px;
+		z-index: 10;
+}
+.content-user {
+		padding:5px 5px 15px 5px;
+}
+.option-user {
+		padding:5px 5px 0 5px;
+		color: #FFF;
+		font-weight: bold;
+		text-shadow: 1px 1px 0 #555; 
+}
+.content-user .titre {
+		float:left;
+		font-weight:bold;
+}
+.content-user .donnee {
+		float:right;
+}
+.avatar_donnee {
+		width:32px;
+		height:32px;
+		margin:0 10px 10px 0;
+		position: absolute;
+		top: 0;
+		left: 5px;
+}
+.list_table {
+		width: 90%;
+		border-spacing: 5px;
+		margin: auto;
+		background-color: #F2F2F2;
+		border-bottom: 1px solid #CCCCCC;
+		border-top: 1px solid #CCCCCC;
+		padding: 5px 30px;
+}
+/* DEBUT PARTIE MAP */
+
+.map-contener {
+		height:480px;
+		overflow:hidden;
+		width:992px;
+		position:relative;
+		padding: 0;
+		background-color:#000;
+		margin: auto;
+}
+.bottom_map_user .ConteneurGraphique {
+		border: 0;
+		box-shadow: 0;
+}
+.map {
+		overflow:hidden;
+		height:480px;
+		width:992px;
+		border:0;
+		color:#a52a25;
+		position:relative;
+		background-image:url('../images/template/indicator.gif');
+		background-position:center;
+		background-repeat:no-repeat;
+		background-color:#000;
+		cursor: help;
+}
+
+/* FIN PARTIE MAP */
+
+/* DEBUT PARTIE TCHAT */
+
+#tchat_global {
+		position: absolute;
+		z-index: 10;
+		right: 5px;
+		bottom: 5px;
+}
+
+.tchat-content p {
+		padding:0;
+		margin:0;
+}
+
+.tchat-content {
+		background-color:#FFF;
+		filter:alpha(opacity=60);
+		-moz-opacity:.60;
+		opacity:.60;
+		-moz-border-radius:4px;
+		-webkit-border-radius:4px;
+		border-radius:4px;
+		padding:4px 6px;
+		color:#333;
+		height: 120px;
+		margin: 2px 0;
+		overflow:auto;
+}
+.tchat-menu label {
+		color: #fff;
+		text-shadow: 1px 1px 0 #555;
+}
+.tchat-menu .inputbox {
+		margin:0;
+		border:1px solid #777;
+		background-image:none;
+		width:400px;
+		float:left;
+		-moz-border-radius:4px;
+		-webkit-border-radius:4px;
+		border-radius:4px;
+		padding:4px 6px;
+		color:#333;
+		filter:alpha(opacity=60);
+		-moz-opacity:.60;
+		opacity:.60;
+}
+.tip_map_tchat {
+		background-color: #222;
+		color: #FFF;
+		padding: 6px;
+		font-size: 10px;
+		-moz-border-radius:4px;
+		-webkit-border-radius:4px;
+		border-radius:4px;
+		filter:alpha(opacity=80);
+		-moz-opacity:.80;
+		opacity:.80;
+}
+/* FIN PARTIE TCHAT */
+
+/* job */
+.imgJob {
+		float: left;
+		margin: 0 10px 5px 0;
+}

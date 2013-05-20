@@ -1,0 +1,22 @@
+.formButton {
+	text-align:right;
+	margin:20px 0 0 0;
+}
+
+.recap_quete {
+	width:100%;
+}
+
+.recap_quete .title {
+	text-align:left;
+}
+
+.recap_quete .level {
+	width:100px;
+	text-align:right;
+}
+
+.recap_quete .link {
+	width:100px;
+	text-align:right;
+}

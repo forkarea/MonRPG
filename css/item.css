@@ -1,0 +1,140 @@
+.itemListLeft {
+		float:left;
+}
+.itemListRight {
+		float:right;
+}
+.itemList {
+		background-color:#FAFDF9;
+		width:48%;
+		border:1px solid #CDE5C6;
+		-webkit-user-select:none;
+		-moz-user-select:none;
+}
+.listDragNDrop {
+		padding: 0 10px;
+		overflow:auto;
+		height:374px;
+}
+.blocItem {
+		background-color:#FFF;
+		position:relative;
+		margin: 5px 1%;
+		height:50px;
+		width:48%;
+		float:left;
+		-moz-box-shadow: 2px 2px 6px #5C9B48 inset;
+		-webkit-box-shadow: 2px 2px 6px #5C9B48 inset;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+}
+.itemDrag {
+		background-color:#FFF;
+		border:1px solid #5C9B48;
+		padding: 5px;
+		position:relative;
+		cursor:move;
+		height:40px;
+		-moz-box-shadow: 2px 2px 2px #999;
+		-webkit-box-shadow: 2px 2px 4px #999;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+}
+h2 {
+	color:#63AF4B;
+	padding:10px;
+	font-size:18px;
+}
+.noDrag {
+		cursor:pointer;
+		background-color:#FCEFF2;
+}
+.imageItem {
+		float:left;
+		margin:0 5px 5px 0;
+}
+.titreItem {
+		float:left;
+		font-size:12px;
+		color:#C00;
+		font-weight:bold;
+		padding-top:5px;
+}
+.itemPosition {
+		font-weight: normal;
+		font-size: 10px;
+		color:#555;
+		position:absolute;
+		top:3px;
+		right:5px;
+}
+.priceItem {
+		float:left;
+		color:#F90;
+		font-weight:bold;
+		font-size:10px;
+}
+.niveauItem {
+		float:left;
+		color:#33F;
+		font-weight:bold;
+		margin-left:10px;
+		font-size:10px;
+}
+.quantiteItem {
+		float:left;
+		color:#090;
+		font-weight:bold;
+		margin-left:10px;
+		font-size:10px;
+}
+.itemCle {
+		font-weight: normal;
+		font-size: 11px;
+		width: 180px;
+}
+.detailComment {
+		margin:5px 0 10px 0;
+}
+.detailNbr {
+		margin:5px 0;
+		color:#F90;
+}
+.detailQucik {
+		color:#36C;
+}
+.detailContentExtra {
+		margin-top:5px;
+		color:#5C9B48;
+}
+.imgItem {
+		margin: 0 10px 10px 0;
+		float:left;
+}
+.my_stuff {
+		background-color: #fffacd;
+}
+.legendeItem {
+		float:left;
+		width: 20px;
+		height: 20px;
+		display: inline;
+		border: 1px solid #5C9B48;
+		margin: 10px 5px;
+}
+.labelItem {
+		float:left;
+		display: block;
+		margin: 15px 10px 0 0;
+		font-style: italic;
+		
+}
+.itemBlanc {
+		background-color: #fff;
+}
+.itemRouge{
+		background-color: #FCEFF2;
+}
+.itemJaune {
+		background-color: #fffacd;
+}
