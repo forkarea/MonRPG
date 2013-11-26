@@ -86,4 +86,5 @@ class Config_Controller extends Template_Controller {
 		}
 
 }
+
 ?>
